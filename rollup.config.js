@@ -4,7 +4,7 @@ export default {
   input: 'dist/esm/index.js',
   output: {
     file: 'dist/plugin.js',
-    format: 'iife',
+    format: 'es',
     name: 'capacitorCommunityBluetoothLe',
     globals: {
       '@capacitor/core': 'capacitorExports',
